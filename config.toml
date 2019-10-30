@@ -1,3 +1,21 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Tours JUG"
+# theme = "hugo-spectre-pixel-theme"
+theme = "hugo-toursjug-theme"
+
+[params]
+  name = "Tours JUG"
+
+  # Author information in posts
+  aboutAuthor = "I'm a Programmer."
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = [
+    "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+  ]
+  customJS  = []
+
+  [taxonomies]
+  tag = "tags"
