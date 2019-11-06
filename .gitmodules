@@ -1,0 +1,6 @@
+[submodule "themes/hugo-spectre-pixel-theme"]
+	path = themes/hugo-spectre-pixel-theme
+	url = git@github.com:st-wong/hugo-spectre-pixel-theme.git
+[submodule "themes/hugo-toursjug-theme"]
+	path = themes/hugo-toursjug-theme
+	url = git@github.com:ptitbob/hugo-toursjug-theme.git

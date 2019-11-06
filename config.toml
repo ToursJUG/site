@@ -1,3 +1,20 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Tours JUG"
+# theme = "hugo-spectre-pixel-theme"
+theme = "hugo-toursjug-theme"
+buildFuture = true 
+
+[permalinks]
+event = "/:section/:year:month:day/"
+
+[params]
+  name = "Tours JUG"
+
+  events = "Nos evenements"
+  about = "Qui sommes nous"
+  mailinglist = true
+  mailinglist_text = "Pour ne manquer aucun des prochains evenement, inscrivez vous"
+
+[test]
+  show = true
