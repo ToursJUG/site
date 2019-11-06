@@ -3,19 +3,18 @@ languageCode = "en-us"
 title = "Tours JUG"
 # theme = "hugo-spectre-pixel-theme"
 theme = "hugo-toursjug-theme"
+buildFuture = true 
+
+[permalinks]
+event = "/:section/:year:month:day/"
 
 [params]
   name = "Tours JUG"
 
-  # Author information in posts
-  aboutAuthor = "I'm a Programmer."
+  events = "Nos evenements"
+  about = "Qui sommes nous"
+  mailinglist = true
+  mailinglist_text = "Pour ne manquer aucun des prochains evenement, inscrivez vous"
 
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = [
-    "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
-  ]
-  customJS  = []
-
-  [taxonomies]
-  tag = "tags"
+[test]
+  show = true
