@@ -1,5 +1,5 @@
 ---
-title: "Inauguration"
+title: "Inauguration - Selenium et Unitils"
 description: "* Summary of experience"
 date: 2008-04-09T09:00:00+01:00
 tags: [
