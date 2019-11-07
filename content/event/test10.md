@@ -5,7 +5,7 @@ date: 2019-11-10T19:30:00+01:00
 tags: [
     "",
 ]
-draft: true
+draft: false
 weigth: 2;
 intro: "Pour cette première soirée, nous accueillons Alexandre Touret de retour de sa triomphale tournée sur les traces du framework Apache Beam.
 

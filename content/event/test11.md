@@ -5,7 +5,7 @@ date: 2019-12-03T01:14:03+01:00
 tags: [
     "",
 ]
-draft: true
+draft: false
 place: "Mame"
 intro: "Stéphane Nicoll vient nous faire découvrir SpringBoot2 et ses nouveautés.
 
