@@ -1,3 +1,3 @@
 [submodule "themes/hugo-toursjug-theme"]
 	path = themes/hugo-toursjug-theme
-	url = git@github.com:ptitbob/hugo-toursjug-theme.git
+	url = git@github.com:ToursJUG/hugo-toursjug-theme.git
