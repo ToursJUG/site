@@ -1,7 +1,7 @@
 ---
 title: "Unifiez vos traitements Batch et Streaming avec Apache Beam"
-description: "* Summary of experience"
-date: 2019-11-10T19:30:00+01:00
+description: "Presentation d'Apache BEAM par Alexandre Touret"
+date: 2019-09-18T19:30:00+01:00
 tags: [
     "",
 ]
