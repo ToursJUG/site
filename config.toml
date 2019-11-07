@@ -1,5 +1,5 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "http://beta.toursjug.org/"
+languageCode = "fr-fr"
 title = "Tours JUG"
 # theme = "hugo-spectre-pixel-theme"
 theme = "hugo-toursjug-theme"
