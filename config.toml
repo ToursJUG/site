@@ -11,8 +11,8 @@ event = "/:section/:year:month:day/"
 [params]
   name = "Tours JUG"
 
-  events = "Nos evenements"
-  about = "Qui sommes nous"
+  events = "Nos évenements"
+  about = "Qui sommes-nous"
   mailinglist = true
   mailinglist_text = "Pour ne manquer aucun des prochains evenement, inscrivez vous"
 
