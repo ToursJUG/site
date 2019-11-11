@@ -6,7 +6,7 @@ tags: [
     "",
 ]
 draft: false
-weigth: 2;
+speakers: ["Alexandre Touret"]
 intro: "Pour cette première soirée, nous accueillons Alexandre Touret de retour de sa triomphale tournée sur les traces du framework Apache Beam.
 
 
