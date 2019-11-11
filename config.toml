@@ -4,9 +4,11 @@ title = "Tours JUG"
 # theme = "hugo-spectre-pixel-theme"
 theme = "hugo-toursjug-theme"
 buildFuture = true 
+removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687 - suppression des accents dans les URLs :)
 
 [permalinks]
 event = "/:section/:year:month:day/"
+
 
 [params]
   name = "Tours JUG"
