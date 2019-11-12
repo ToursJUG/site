@@ -1,13 +1,13 @@
 ---
 title: "Inauguration - Selenium et Unitils"
 description: "* Summary of experience"
-date: 2008-04-09T09:00:00+01:00
+date: 2008-04-09T19:00:00+01:00
 tags: [
     "",
 ]
 event-date: 2008-04-09T09:00:00+01:00
 draft: false
-speakers: ["Christophe Jolivet"]
+speakers: ["Christophe Jollivet"]
 docs: [["L'inauguration","http://toursjug.cloud.xwiki.com/xwiki/bin/download/Meetings/20080409/InaugurationToursJUG.pdf"], ["Unitils et Selenium","Unitils-Selenium.pdf"]]
 ---
 

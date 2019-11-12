@@ -12,6 +12,7 @@ intro: "GlassFish est un serveur d'application Java EE de nouvelle génération.
 
 Et un petit retour de JavaOne, cela vous dit ?"
 docs: [["GlassFish et JavaOne 2008","ToursJUG-GlassFishJavaOne2008.pdf"]]
+speakers: ["Alexis Moussine-Pouchkine"]
 ---
 
 #### GlassFIsh
