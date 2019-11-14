@@ -7,6 +7,7 @@ tags: [
 ]
 draft: false
 speakers: ["Alexandre Touret"]
+eventbrite: "billets-toursjug-unifiez-vos-traitements-batch-et-streaming-avec-apache-beam-70838089633"
 intro: "Pour cette première soirée, nous accueillons Alexandre Touret de retour de sa triomphale tournée sur les traces du framework Apache Beam.
 
 
@@ -22,6 +23,7 @@ Pour aider les concepteurs, développeurs et architectes Google a créé Dataflo
 
 
 ***Apache Beam était né.***"
+place: "Mame"
 ---
 
 Pour cette première soirée, nous accueillons Alexandre Touret de retour de sa triomphale tournée sur les traces du framework Apache Beam emoticon_smile .
