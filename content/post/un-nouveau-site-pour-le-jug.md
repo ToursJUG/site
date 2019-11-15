@@ -26,7 +26,7 @@ Loin de moi l'idée de troller sur PHP ou JS... Quoi que... Mais non, c'était p
 * Tenter un truc fun
 
 Je me suis tourné vers la mouvance [JAMstack](https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/), mais pas avec du javascript pour le moteur (cf. plus haut), mon choix s'est porté vers [Hugo](https://gohugo.io/), petit moteur de génération de site statique écrit en go.
-Je l'avais déjà experimenté avec mon site perso, vous écrive vos article en markdown ou asciidoc, et ils sont généré sous forme d'un ensemble de page HTML classique le tout piloté par le theme choisi.
+Je l'avais déjà experimenté avec mon site perso, vous écrivez vos article en markdown ou asciidoc, et ils sont générés sous forme d'un ensemble de page HTML classique le tout piloté par le theme choisi.
 
 Là, cela devient interressant...
 Hugo vient avec beaucoup de thèmes, plus ou moins facilement modifiable, paramétrable.
@@ -44,6 +44,6 @@ Vous pouvez voir ce que cela donne dans le repository du theme: [ToursJUG/hugo-t
 
 Il reste beaucoup de choses à traiter (cf. les issues si cela vous interresse). Vous devriez voir le site évoluer tranquilement prochainement.
 
-Mais si au final, le site vous parait claire et vous permette d'aller à l'essentiel, a savoir les prochaien soirées du JUG, alors mon objectif sera atteint.
+Mais si au final, le site vous parait clair et vous permette d'aller à l'essentiel, a savoir les prochaine soirées du JUG, alors mon objectif sera atteint.
 
 *Stay tuned*
