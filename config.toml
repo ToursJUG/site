@@ -17,6 +17,7 @@ event = "/:section/:year:month:day/"
   about = "Qui sommes-nous"
   mailinglist = true
   mailinglist_text = "Pour ne manquer aucun des prochains evenement, inscrivez vous"
+  blogTitle = "Les petits mots du JUG"
 
 [test]
   show = true
