@@ -10,7 +10,7 @@ layout: "post"
 author: "François"
 ---
 Voilà, c'est fait, le JUG a enfin son nouveau site :)
-Cela faisait un petit bout de temps que je voulais cette refonte, et quitter [xwiki](https://xwiki.com/fr/), qui a accompagné et hébergé le JUG depuis sa création et surtout qui faisait parti de la sphere du monde Java. Je remercie l'équipe de xwiki pour cette accompagnement (l'ancien site du Tours JUG est toujours dispponible [ici](http://xwiki.toursjug.org/) pour les nostalgique, le temps de récupérer tout l'historique des soirées).
+Cela faisait un petit bout de temps que je voulais cette refonte, et quitter [xwiki](https://xwiki.com/fr/), qui a accompagné et hébergé le JUG depuis sa création et surtout qui faisait parti de la sphere du monde Java. Je remercie l'équipe de xwiki pour cet accompagnement (l'ancien site du Tours JUG est toujours dispponible [ici](http://xwiki.toursjug.org/) pour les nostalgique, le temps de récupérer tout l'historique des soirées).
 
 > La question, c'était remplacer, mais par quoi ?
 
