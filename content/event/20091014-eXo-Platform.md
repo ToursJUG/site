@@ -1,7 +1,7 @@
 ---
 title: "eXo Platform"
 description: "* Summary of experience"
-date: 2009-10-17T19:00:00+01:00
+date: 2009-10-14T19:00:00+01:00
 tags: [
     "",
 ]
