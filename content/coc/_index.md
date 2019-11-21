@@ -14,18 +14,18 @@ Nous nous attendons à la coopération de tous les participants pour aider à as
 
 ### La version rapide
 
-***Le ToursJUG n'accepte aucune forme de harcélement ou de discrimination.***
+***Le ToursJUG n'accepte aucune forme de harcèlement ou de discrimination.***
 
 Nous voulons être très clairs pour tou.te.s les participants, conférenciers et sponsors de nos événements: nous apprécions votre participation et si quelque chose se passe pendant votre participation à un événement ToursJUG qui vous met mal à l’aise, merci de nous en informer au plus vite.
 
 Notre conférence se veut une expérience sans harcèlement, quel que soit votre sexe, votre identité sexuelle, votre âge, votre orientation sexuelle, votre handicap, votre apparence physique, votre poids, votre race ou votre religion.
-Nous ne tolérons aucun harcèlement des participant‧e‧s à la conférence, sous quelque forme que ce soit.
+Nous ne tolérons aucun harcèlement des participants à nos conférences, sous quelque forme que ce soit.
 
 ### La version moins rapide
 
 Le harcèlement inclut des commentaires à l'oral ou à l'écrit sur le sexe, l'identité sexuelle, l'âge, l'orientation sexuelle, le handicap, l'apparence physique, le poids, la race, la religion, les images à connotation sexuelle dans des lieux publics, les intimidations délibérées, la traque, la poursuite, un harcèlement photographique ou vidéo, une suite d'interruptions des conférences et des autres événements, un contact physique inapproprié et des avances sexuelles non désirées.
 
-**Si un participant adopte un comportement harcelant, les organisateurs de la communauté peuvent prendre toute mesure qu’ils jugent appropriée,  y compris l’avertissement ou l’expulsion de la communauté et des salles de de l'événement du ToursJUG.**
+**Si un participant adopte un comportement harcelant, les organisateurs de la communauté peuvent prendre toute mesure qu’ils jugent appropriée,  y compris l’avertissement ou l’expulsion de la communauté et des salles de l'événement du ToursJUG.**
 
 Face à un comportement de harcèlement, l'équipe du ToursJUG peut prendre toute action qui lui semble adéquate.
 Cela va d'un simple avertissement à l'exclusion de la conférence (sans remboursement, pour les événements payant que le ToursJUG serai amené à organiser).
@@ -37,4 +37,4 @@ Toute communication que nous recevons concernant un problème de harcèlement se
 ### Qui contacter ?
 
 Directement à un des membres de l'équipe du ToursJUG, ou via notre compte twitter [@ToursJUG](https://twitter.com/toursjug).
-Les messages directs via mail, page de contact du site (*bientôt disponible*), Twitter ou autre sont aussi un bon moyen pour nous joindre.
+Les messages directs via mail (*`team [arobase] toursjug [point] org`*), page de contact du site (*bientôt disponible*), Twitter ou autre sont aussi un bon moyen pour nous joindre.

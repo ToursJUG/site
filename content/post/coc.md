@@ -11,7 +11,7 @@ author: "L'équipe" # Nom de l(auteur de l'article de blog)
 ---
 Le toursJUG se dote d'un **[code de conduite](/coc)**, avec comme base : 
 
-> **Le ToursJUG n'accepte aucune forme de harcélement ou de discrimination.**
+> **Le ToursJUG n'accepte aucune forme de harcèlement ou de discrimination.**
 
 Pourquoi maintenant et pas avant ?
 Tout simplement, car comme des humains normaux, cela tombait sous le sens pour nous.
