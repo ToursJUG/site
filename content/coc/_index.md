@@ -1,14 +1,14 @@
 ---
 title: "Code of Conduct du ToursJUG"
 date: 2019-11-20T23:14:37+01:00
-draft: true
+draft: false
 # Il s'agit du fichier qui sera pris en compte pour l'affichage du Code Of Conduct de votre UG.
 # link: "" # lien du  CoC de votre inspiration pour votre texte.
 ---
 
 > Tous les participants, conférenciers, sponsors et bénévoles sont tenus d'accepter le code de conduite du ToursJUG décrit ci-dessous.
 
-**L'équipe du ToursJUG fera appliquer ce code de conduite lors de tous les événements que nous organiseront.**
+**L'équipe du ToursJUG fera appliquer ce code de conduite lors de tous les événements que nous organiserons.**
 
 Nous nous attendons à la coopération de tous les participants pour aider à assurer un environnement sain pour tous.
 

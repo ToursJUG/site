@@ -16,9 +16,9 @@ Le toursJUG se dote d'un **[code de conduite](/coc)**, avec comme base :
 Pourquoi maintenant et pas avant ?
 Tout simplement, car comme des humains normaux, cela tombait sous le sens pour nous.
 
-Mais il a fallu que l'on nous le demande afin de nous rendre compte que le simple fait de l'écrire pour l'officialiser et permettre à nos participants, vous, (participants et conférenciers) de connaitre clairement notre position.
+Mais il a fallu que l'on nous le demande afin de nous rendre compte que le simple fait de l'écrire pour l'officialiser et permettrait à nos participants, vous (participants et conférenciers), de connaitre clairement notre position.
 
-Nous nous sommes inspiré ce qu'il existait ailleurs
+Nous nous sommes donc inspiré ce qu'il existait ailleurs
 
 * La page CoC francophone : [Code de conduite pour la conférence](https://confcodeofconduct.com/index-fr.html)
 * La page CoC du ToulouseJUG (salut les copains !) : [Code of Conduct du Toulouse JUG](http://www.toulousejug.org/page/coc/)
