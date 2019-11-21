@@ -1,11 +1,11 @@
 ---
 title: "Un code de conduite pour le JUG ?"
 description: "Le ToursJUG se dote d'un Code of Conduct"
-date: 2019-11-20T23:56:43+01:00
+date: 2019-11-21T23:56:43+01:00
 tags: [
     "",
 ]
-draft: true
+draft: false
 layout: "post"
 author: "L'équipe" # Nom de l(auteur de l'article de blog)
 ---
