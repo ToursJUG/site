@@ -6,7 +6,7 @@ tags: [
     "",
 ]
 event-date: 2019-11-24T00:53:41+01:00
-draft: true
+draft: false
 hideSpeaker: false
 intro: "* Introduction pour l'evenement"
 place: "Cantine numérique" # emplacement de l'evenement
