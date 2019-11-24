@@ -6,7 +6,7 @@ tags: [
     "",
 ]
 event-date: 2019-11-24T00:59:38+01:00
-draft: true
+draft: false
 hideSpeaker: true
 intro: "* Introduction pour l'evenement"
 place: "mame" # emplacement de l'evenement
