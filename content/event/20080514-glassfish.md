@@ -7,7 +7,7 @@ tags: [
 ]
 event-date: 2019-11-07T02:01:29+01:00
 draft: false
-place: "SupInfo Tours"
+place: "SupInfo"
 intro: "GlassFish est un serveur d'application Java EE de nouvelle génération. Alexis nous présentera ce projet Open source.
 
 Et un petit retour de JavaOne, cela vous dit ?"
