@@ -13,7 +13,7 @@ L'objectif du Tours Java User Group est de permettre aux acteurs et utilisateurs
 
 Nous nous rencontrons une fois par mois.
 Les événements sont gratuits, ouverts à tous et consistent le plus souvent en une présentation technique, une démonstration d’un produit, ou une table ronde.
-Après la rencontre, nous nous retrouvons généralement pour échanger autour d’un verre et d’un mini-buffet ou d'une pizas.
+Après la rencontre, nous nous retrouvons généralement pour échanger autour d’un verre et d’un mini-buffet ou de pizzas.
 
 #### Les valeurs du JUG
 
