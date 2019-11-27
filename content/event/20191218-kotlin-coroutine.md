@@ -1,5 +1,5 @@
 ---
-title: "Kotlin : Coroutines everywhere for Lazy developper"
+title: "Débloquez la situation avec les coroutines de Kotlin"
 # description: "* Summary of experience"
 date: 2019-12-18T19:30:41+01:00
 tags: [
