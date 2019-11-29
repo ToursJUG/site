@@ -1,4 +1,4 @@
-baseURL = "http://www.toursjug.org/"
+baseURL = "http://beta.toursjug.org/"
 languageCode = "fr-fr"
 title = "Tours JUG"
 # theme = "hugo-spectre-pixel-theme"
