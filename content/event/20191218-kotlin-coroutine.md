@@ -16,4 +16,6 @@ speakers: ["Louis Cad"] # Tableau avec les nom des speakers entre " et séparé 
 after: "apside-after-01" # Id (title urlizé d'un after) utilisé pour peupler la section after d'un evvent (exemple : apside-after-01)
 ---
 
+> Soirée organisée conjointement avec le [GDG Tours](https://www.meetup.com/fr-FR/GDG-Tours/).
+
 *A venir...*
