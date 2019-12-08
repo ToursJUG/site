@@ -24,6 +24,8 @@ Si vous avez du code qui attend (I/O, événements, etc), les coroutines peuvent
 
 Sur Android, c'est déjà une **révolution industrielle** en marche, mais Kotlin avec ses coroutines, est un langage multiplateforme qui fonctionne sur serveur, ordinateur… même sur montres WearOS et Apple Watch !
 
+![](Kotlin2.png)
+
 La promesse (tenue) des coroutines de Kotlin, c'est de rendre les fonctions non bloquantes aussi simples d'usages que les fonctions/méthodes bloquantes, y compris en ce qui concerne la gestion des erreurs.
 
 En plus de ça, la concurrence structurée rend le parallélisme et l'annulation de traitements de tous types plus sûrs et très simples.
