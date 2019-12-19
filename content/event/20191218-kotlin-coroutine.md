@@ -14,6 +14,7 @@ speakers: ["Louis Cad"] # Tableau avec les nom des speakers entre " et séparé 
 # docs: [[]] # Tableau donnant les liens vers les documents de la soirée hors affiche - exemple : [["L'inauguration","http://toursjug.cloud.xwiki.com/xwiki/bin/download/Meetings/20080409/InaugurationToursJUG.pdf"], ["Unitils et Selenium","Unitils-Selenium.pdf"]]
 eventbrite: "billets-toursjug-debloquez-la-situation-avec-les-coroutines-de-kotlin-85400795077" # Id de l'inscription (la partie de l'URL sr trouvant après https://www.eventbrite.fr/e/ )
 after: "apside-after-01" # Id (title urlizé d'un after) utilisé pour peupler la section after d'un evvent (exemple : apside-after-01)
+youtube: "oPTpixgYFg0" # URL de la vidéo de la conférence
 ---
 
 > Soirée organisée conjointement avec le [GDG Tours](https://www.meetup.com/fr-FR/GDG-Tours/).
