@@ -14,3 +14,5 @@ L'objectif du Tours Java User Group est de permettre aux acteurs et utilisateurs
 {{< img src="ToursJUG-texte.png" >}}
 
 Des rencontres seront organisées une fois par mois, sous forme de réunions gratuites, ouvertes à tous.
+
+**Le ToursJUG n'accepte aucune forme de harcèlement ou de discrimination, c'est pour cela que nous avons adopté un [code de conduite](/coc).**
