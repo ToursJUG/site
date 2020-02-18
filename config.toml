@@ -1,4 +1,4 @@
-baseURL = "http://beta.toursjug.org/"
+baseURL = "http://www.toursjug.org/"
 languageCode = "fr-fr"
 title = "Tours JUG"
 # theme = "hugo-spectre-pixel-theme"
@@ -21,3 +21,4 @@ event = "/:section/:year:month:day/"
 
 [test]
   show = true
+
