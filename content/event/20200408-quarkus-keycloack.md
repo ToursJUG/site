@@ -6,7 +6,7 @@ tags: [
     "",
 ]
 event-date: 2020-04-08T19:30:00+01:00
-draft: true
+draft: false
 hideSpeaker: true
 # intro: "* Introduction pour l'evenement"
 place: "Wild Code School" # emplacement de l'evenement
