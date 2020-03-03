@@ -7,11 +7,7 @@ tags: [
 ]
 event-date: 2020-04-08T19:30:00+01:00
 draft: false
-<<<<<<< HEAD
 hideSpeaker: false
-=======
-hideSpeaker: true
->>>>>>> bb8ac6e342d01d276cbf3fbe54ed244bbf9e31f6
 # intro: "* Introduction pour l'evenement"
 place: "Wild Code School" # emplacement de l'evenement
 speakers: ["Sébastien Blanc"] # Tableau avec les nom des speakers entre " et séparé par des , et doit être identique au titre du speaker enregistré !
