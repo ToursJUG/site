@@ -36,7 +36,7 @@ Vous pouvez aussi nous suivre sur le fil twitter du JUG : **[@toursjug](https://
 
 Le jug a été créé par {{< speaker "Christophe Jollivet" >}} en avril 2008, ce fut le deuxième JUG de France.
 
-Depuis cette date c'est **[{{< count type="event" >}} conférences](/event)** ({{< count type="event" when="past" >}} passées et {{< count type="event" when="next" >}} à venir) et plus de {{< count type="speaker" >}} speakers invités.
+Depuis cette date c'est **[{{< count type="event" >}} conférences](/event)** ({{< count type="event" when="past" >}} passées et {{< count type="event" when="next" >}} à venir) et plus de [{{< count type="speaker" >}} speakers](/speaker) invités.
 En moyenne, nous sommes une trentaine de personnes à chaque soirées.
 
 #### Intervenants
