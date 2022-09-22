@@ -8,4 +8,8 @@ twitter: "https://twitter.com/sebprunier" # url ou id du fil twitter
 # github: "" # id de l'utilisateur github
 # linkedin: "" # url du profil linkedin
 ---
-Je suis développeur depuis 17 ans et travaille actuellement chez Serli à Poitiers. J'interviens ces dernières années sur plusieurs projets en tant que Tech Lead, sur des technos variées : Play Framework, Scala, Spring Boot, Java, Javascript, React, Postgresql, Elasticsearch, Redis, etc…
+Je suis développeur depuis 2005 et travaille actuellement chez Serli à Poitiers.
+
+Mon quotidien est rythmé à la fois par des projets d’innovation dans le secteur tertiaire et par des projets au cœur du SI dans le secteur industriel.
+
+Les technos que j’utilise sont donc variées, comme par exemple : Java, Scala, Node, Play Framework, Spring Boot pour le back, Javascript, React pour le front et Postgresql, Elasticsearch, Redis pour la data.

@@ -1,11 +1,11 @@
 ---
 title: "Testcontainers avec Spring Boot, PostgreSQL et PostGIS : Live Coding !"
 # description: "* Summary of experience"
-date: 2022-11-22T22:19:30+02:00
+date: 2022-11-22T19:30:00+02:00
 tags: [
     "docker","java","spring","postgreSQL"
 ]
-event-date: 2022-09-19T22:14:00+02:00
+event-date: 2022-09-19T19:30:00+02:00
 draft: false
 hideSpeaker: false
 intro: "Le but de cette conférence est simple : du Live Coding pour démontrer la puissance de Testcontainers pour réaliser des tests unitaires de composants dépendant de services tiers (une base de données par exemple)."
@@ -16,6 +16,6 @@ speakers: ["Sébastien Prunier"] # Tableau avec les nom des speakers entre " et 
 # after: "" # Id (title urlizé d'un after) utilisé pour peupler la section after d'un evvent (exemple : apside-after-01)
 # youtube: "" # URL de la vidéo de la conférence
 ---
-Le but de cette conférence est simple : du **Live Coding** pour démontrer la puissance de **Testcontainers** pour réaliser des tests unitaires de composants dépendant de services tiers (une base de données par exemple).
+Le but de ce talk est simple : du **Live Coding** afin de démontrer la puissance de **Testcontainers** pour réaliser des tests unitaires de composants dépendant de services tiers (une base de données par exemple). 
 
-Dans notre cas, nous mettrons en place Testcontainers pour tester unitairement des `Repository` d'une application Spring Boot, accédant à une base de données PostgreSQL et manipulant des données géographiques avec l'extension PostGIS.
+Après avoir présenté le contexte du projet qui m’a amené à utiliser Testcontainers et notre stratégie de tests, nous mettrons en place les tests unitaires des « `Repository` » d'une application Spring Boot, accédant à une base de données PostgreSQL et manipulant des données géographiques avec l'extension PostGIS.
