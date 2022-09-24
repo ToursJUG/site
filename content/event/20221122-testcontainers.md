@@ -9,7 +9,7 @@ event-date: 2022-09-19T19:30:00+02:00
 draft: false
 hideSpeaker: false
 intro: "Le but de cette conférence est simple : du Live Coding pour démontrer la puissance de Testcontainers pour réaliser des tests unitaires de composants dépendant de services tiers (une base de données par exemple)."
-place: "SII" # emplacement de l'evenement
+place: "SII Tours" # emplacement de l'evenement
 speakers: ["Sébastien Prunier"] # Tableau avec les nom des speakers entre " et séparé par des , et doit être identique au titre du speaker enregistré !
 # docs: [[]] # Tableau donnant les liens vers les documents de la soirée hors affiche - exemple : [["L'inauguration","http://toursjug.cloud.xwiki.com/xwiki/bin/download/Meetings/20080409/InaugurationToursJUG.pdf"], ["Unitils et Selenium","Unitils-Selenium.pdf"]]
 eventbrite: "426059504447" # Id de l'inscription (la partie de l'URL sr trouvant après https://www.eventbrite.fr/e/ )

@@ -1,5 +1,5 @@
 ---
-title: "SII"
+title: "SII Tours"
 date: 2022-09-24T08:01:04+02:00 # date d'ajout
 logo: "logoSII.png" # nom de l'image du logo (se trouvant dans static/places)
 address: ["1 impasse du palais","37000 Tours"] # Tableau de l'adresse, chaque élément du tableau sera affiché succéssivement
