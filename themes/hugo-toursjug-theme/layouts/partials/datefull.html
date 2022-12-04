@@ -1,0 +1,14 @@
+{{ .Scratch.Set "month" "" }}
+{{ if isset .Site.Params "month_label" }}
+{{ .Scratch.Set "month" (index .Site.Params.month_label (sub (int (printf "%d" .Date.Month)) 1)) }}
+{{ else }}
+{{ .Scratch.Set "month" .Date.Month }}
+{{ end }}
+{{ .Scratch.Set "weekday" "" }}
+{{ if isset .Site.Params "day_label" }}
+{{ .Scratch.Set "weekday" (index .Site.Params.day_label (sub (int (printf "%d" ((time .Date).Weekday))) 1)) }}
+{{ else }}
+{{ .Scratch.Set "weekday" ( .Date.Format "Monday" ) }}
+{{ end }}
+
+{{ .Scratch.Get "weekday" }} {{ .Date.Day }} {{ .Scratch.Get "month" }} {{ .Date.Year }}

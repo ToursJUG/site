@@ -1,0 +1,43 @@
+{{ define "main" }}
+<h1>Nos prochains événements</h1>
+{{ range (where .Pages.Reverse "Date" "ge" now) }}
+{{ partial "event.html" . }}
+{{ else }}
+<div class="no-event">
+    <img src="/images/duke_01_200.png">
+    <h4>Aucun événement planifié</h4>
+</div>
+{{ end }}
+<div class="next-event">
+    <h4 style="align-self: center;">Événements passés</h4>
+
+    {{ range where .Site.Pages "Section" "event" }}
+    {{ range (where .Pages "Date" "lt" now).GroupByDate "2006"   }}
+    <div>
+        <h3 class="event-title year">{{ .Key }}</h3>
+        {{ range .Pages }}
+
+        <div class="event follow" onclick="location = '{{ .RelPermalink }}'">
+            <div class="title no-margin">
+                {{ partial "event-title-text.html" . }}
+            </div>
+            <div class="event-speakers">
+                {{ if isset .Params "speakers" }}
+                <span>
+                    {{ delimit .Params.speakers ", " }}
+                </span>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <br />
+
+
+    {{ end }}
+
+
+</div>
+{{ end }}

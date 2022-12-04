@@ -1,0 +1,8 @@
+<span>{{ .Title }}</span>
+<span class="event-date">
+    {{ if lt .Date now }}
+    {{ partial "datemonth.html" . }}
+    {{ else }}
+    {{ partial "datemonthyear.html" . }}
+    {{ end }}
+</span>

@@ -1,0 +1,50 @@
+
+<div id="sib_embed_signup" style="padding: 10px;">
+        <div class="forms-builder-wrapper" style="position:relative;margin-left: auto;margin-right: auto; background-color: transparent"> <input
+                type="hidden" id="sib_embed_signup_lang" value="fr"> <input type="hidden"
+                id="sib_embed_invalid_email_message" value="Cette adresse email n'est pas valide."> <input type="hidden"
+                name="primary_type" id="primary_type" value="email">
+
+            <form class="description" id="theform" name="theform"
+                action="https://my.sendinblue.com/users/subscribeembed/js_id/32zm5/id/1" onsubmit="return false;"> <input
+                    type="hidden" name="js_id" id="js_id" value="32zm5"><input type="hidden" name="from_url" id="from_url"
+                    value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+                <div class="sib-container rounded ui-sortable"
+                    style="border-radius: 4px; position: relative; border-width: 0px !important; border-color: transparent !important; margin: 0px; text-align: left; ">
+                    <input type="hidden" name="req_hid" id="req_hid" value="~Captcha" style="font-size: 13px;">
+                    
+                    <div class="primary-group email-group forms-builder-group ui-sortable" style="">
+                        <div class="row mandatory-email"
+                            >
+                            <div class="lbl-tinyltr"                                >
+                                Entrez votre adresse email pour vous inscrire <red style="color:#ff0000;">*</red>
+                            </div> <input type="text" name="email" id="email" value=""
+                                style="padding: 10px 2%; width: 90%; min-width: auto;" data-kwimpalastatus="alive"
+                                data-kwimpalaid="1572820088468-2">
+                            <div style="clear:both;"></div>
+                            
+                        </div>
+                    </div>
+                    <div class="captcha forms-builder-group" style="display: block;">
+                        <div class="row"
+                            style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px; padding: 10px 20px;">
+                            fdg fd s
+                            <div id="gcaptcha" style="transform: scale(1); margin-right: 0px;"></div>
+                        </div>
+                    </div> <!-- end of primary -->
+                    <div class="byline"
+                        style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-weight: bold; font-size: 16px; text-align: center; display: block;">
+                        <button class="button editable " type="submit" data-editfield="subscribe"
+                            style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(255, 255, 255); background: rgb(5, 5, 5) none repeat scroll 0% 0%; display: inline-block; white-space: nowrap; min-height: 40px; margin: 0px 5px 0px 0px; padding: 0px 22px; text-decoration: none; text-transform: uppercase; text-align: center; font-weight: bold; font-style: normal; font-size: 14px; cursor: pointer; border: 0px none; border-radius: 4px; vertical-align: top; height: auto; line-height: 150%;">S'inscrire</button>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript"> var sib_prefix = 'sib'; var sib_dateformat = 'dd-mm-yyyy'; </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit&hl=fr"></script>
+    <script> var verifyCallback = function (response) { if (response.length > 0) { $(".captcha > div.row > div.message_area").remove(); } }; var myCallBack = function () { if ($('.captcha > div.row > div#gcaptcha').length > 0) { var captcha = grecaptcha.render('gcaptcha', { 'sitekey': '6LcR2sAUAAAAAN3p96MYVwLh7PQOwDL0Y5ISBXHC', 'theme': 'light', 'callback': verifyCallback, }); } }; </script>
+    <script type='text/javascript'
+        src='https://my.sendinblue.com/public/theme/version4/assets/js/src/subscribe-validate.js?v=1572610382'></script>
+    <!-- End : SendinBlue Signup Form HTML Code -->

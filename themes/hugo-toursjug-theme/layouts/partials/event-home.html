@@ -1,0 +1,7 @@
+<div class="event follow" onclick="location = '{{ .RelPermalink }}'">
+    <div class="title event-title">
+        {{ partial "event-title-text.html" . }}
+    </div>
+    {{ partial "event-summary.html" . }} 
+    <p class="advice-link">Pour aller à la page de l'evenement, cliquez...</p>
+</div>

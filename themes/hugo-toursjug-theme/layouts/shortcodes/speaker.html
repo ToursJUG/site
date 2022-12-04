@@ -1,0 +1,8 @@
+{{ $speakerPath := print "speaker/" (urlize (.Get 0)) }}
+{{ with .Site.GetPage $speakerPath }}
+{{ if isset .Params "title" }}
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
+{{ else }}
+{{- .Get 0 -}}
+{{ end }}

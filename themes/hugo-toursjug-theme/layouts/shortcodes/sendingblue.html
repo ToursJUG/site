@@ -1,0 +1,19 @@
+<div>
+    {{ with .Get "title" }}<h2>{{ . }}</h2>{{ end }}
+<iframe 
+    width="{{ .Get "width" }}" 
+    height="{{ .Get "height" }}" 
+    src="https://my.sendinblue.com/users/subscribe/js_id/{{ .Get "userId" }}/id/{{ .Get "formId" }}" 
+    frameborder="0" 
+    scrolling="auto"
+     allowfullscreen 
+     style="
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%; 
+     "
+>
+</iframe>
+
+</div>

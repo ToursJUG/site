@@ -1,0 +1,17 @@
+<div id="sponsor" style="visibility: hidden">
+    {{ range where .Site.Pages "Section" "sponsor" }}
+    {{ range .Pages.ByWeight }}
+    <div>
+        {{ if isset .Params "image" }}
+        {{ if (hasPrefix .Params.image "/") }}
+        <img src="{{ .Params.image}}" style="max-width: 90%; height: auto;">
+        {{ else }}
+        <img src="./sponsor/{{- .Params.image -}}" style="max-width: 90%; height: auto;">
+        {{ end }}
+        {{ else }}
+        {{ .Title }}
+        {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+</div>

@@ -1,0 +1,13 @@
+{{ .Scratch.Set "pagesFound" (where .Site.RegularPages "Section" "==" "post") }}
+{{ if .Get "type" }}
+{{ .Scratch.Set "pagesFound" (where .Site.RegularPages "Section" "==" (.Get "type")) }}
+{{ if .Get "when" }}
+{{ if eq (.Get "when") "past" }}
+{{ .Scratch.Set "pagesFound" (where (.Scratch.Get "pagesFound") "Date" "lt" now) }}
+{{ end }}
+{{ if eq (.Get "when") "next" }}
+{{ .Scratch.Set "pagesFound" (where (.Scratch.Get "pagesFound") "Date" "ge" now) }}
+{{end}}
+{{ end }}
+{{ end }}
+{{ len (.Scratch.Get "pagesFound") }}
