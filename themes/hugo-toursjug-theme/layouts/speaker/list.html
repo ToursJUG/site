@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>Les speakers</h1>
+<ul id="speaker-desk">
+    {{ range sort .Pages "Title" }}
+<li>
+<h5 >
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+</h5>
+{{ $speakerName := .Title }}
+    {{ $count := 0 }}
+    
+    <p style="text-align: right;">
+        {{ $a := slice "" }}
+        {{ range where .Site.Pages "Section" "event" }}
+        {{ range .Pages }}
+        {{ if in .Params.speakers $speakerName }}
+        {{ $a = $a | append (slice .Title) }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ .Scratch.Set "count" (add (len $a) -1) }}
+        {{ .Scratch.Get "count" }}
+        &nbsp;conférence{{ if gt (int (.Scratch.Get "count")) 1 }}s{{ end }}
+    </p>
+</li>
+{{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+
+
+{{ range first 1 (where .Site.Pages "Section" "about") }}
+{{ if .Content }}
+    <h2>Bienvenue sur le site du Tours Java User Group</h2>
+    {{ .Summary }}
+    {{ end }}
+{{ else }}
+{{ end }}
+
+
+
+{{ range where .Pages "Section" "event" }}
+
+<h4>Prochaine soirée</h4>
+{{ range last 1 (where .Pages "Date" "ge" now) }}
+{{ partial "event.html" . }}
+{{ else }}
+<div class="no-event">
+        <img src="images/duke_01_200.png">
+<h4>Aucun evenement de planifié</h4>
+</div>
+{{ end }}
+{{ end }}
+
+
+{{ end }}

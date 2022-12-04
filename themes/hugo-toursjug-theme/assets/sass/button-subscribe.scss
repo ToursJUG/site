@@ -1,0 +1,77 @@
+@mixin transition($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+  }
+  
+  @mixin textShadow($text-shadow) {
+    -webkit-text-shadow: $text-shadow;
+    -moz-text-shadow: $text-shadow;
+    -ms-text-shadow: $text-shadow;
+    -o-text-shadow: $text-shadow;
+    text-shadow: $text-shadow;
+  }
+
+.event-info {
+  .susbcribe {
+    &.open {
+      .button {
+        font-variant: small-caps;
+        color: #635ab9;
+        font-weight: bold;
+        background-size: 100%;
+        border-radius: 0.45rem;
+        border: 1px solid #635ab9;
+        cursor: pointer;
+        display: inline-block;
+        padding: 0.25em 1.5em;
+        position: relative;
+        z-index: 100;
+        transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+        &::before {
+          border-radius: inherit;
+          background-image: linear-gradient(to right, #f7fbfc calc(100% - 2em), #635ab9 calc(100% - 2em), #635ab9 100%);
+          content: "";
+          display: block;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          width: 100%;
+          z-index: -100;
+          transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+        }
+        &::after {
+          content: "";
+          background-image: url("/images/b64.png");
+          background-size: 1.5em;
+          background-position: right 0.3em center;
+          background-repeat: no-repeat;
+          z-index: 100;
+          display: block;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          width: 100%;
+          z-index: -100;
+          transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+        }
+        &:hover {
+          padding: 0.25em 2.5em 0.25em 0.5em;
+          border: 1px solid #635ab9;
+          &::before {
+            opacity: 1;
+          }
+          &::after {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

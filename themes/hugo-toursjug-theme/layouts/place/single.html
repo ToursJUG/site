@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="place">
+    <h1>{{ upper .Title }}</h1>
+    <div class="informations">
+        <div class="address">
+            {{ range .Params.address }}
+            <span>{{ . }}</span>
+            {{ end }}
+            {{ if isset .Params "gmap" }}
+            <span class="gmap"><a href="{{ .Params.gmap }}" target="_blank">Afficher dans Google map</a></span>
+            {{ end }}
+        </div>
+        {{ if isset .Params "logo" }}
+        <div>
+            <img src="{{ .Params.logo }}" style="max-height: 100px;">
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+{{ end }}

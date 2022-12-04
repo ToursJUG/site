@@ -1,0 +1,29 @@
+
+<ul>
+    {{ $url := replace .Permalink .Site.BaseURL "" }}
+    <li class="logo" {{ if not .IsHome }}onclick="location = '{{ .Site.BaseURL }}'" style="cursor: pointer;" {{ end }}>
+    </li>
+    <li class="menu-item">
+        <a href="{{ .Site.BaseURL }}/event"
+        >
+        {{ with .Site.Params.events }}{{ . }}{{ else }}Evenements{{ end }}
+    </a></li>
+    <!--
+    <li class="menu-item"><a href="#">Sponsors</a></li>
+    -->
+    <li class="menu-item"><a href="{{ .Site.BaseURL }}/about">{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a></li>
+
+    {{ with .Site.GetPage "/coc" }}
+    {{ if isset .Params "title" }}
+    <li class="menu-item"><a href="{{ .Site.BaseURL }}/coc">{{ with .Site.Params.coc }}{{ . }}{{ else }}CoC{{ end }}</a></li>
+    {{ end }}
+    {{ end }}
+    
+    {{ if gt (len (where .Site.RegularPages "Section" "==" "post")) 0 }}
+    <li class="menu-item"><a href="{{ .Site.BaseURL }}/post">Blog</a></li>
+    {{ end }}
+    <!--
+    <li class="menu-item"><a href="#">contact</a></li>
+    -->
+    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+</ul>

@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="sponsor">
+    <h1>{{ upper .Title }}</h1>
+    <div id="information">
+        <div>
+            <p>
+                {{ if isset .Params "datedebut" }}
+                {{ $datestart :=  printf .Params.datedebut | time }}
+                {{ .Scratch.Set "monthstart" "" }}
+                {{ if isset .Site.Params "month_label" }}
+                {{ .Scratch.Set "monthstart" (index .Site.Params.month_label (sub (int (printf "%d" $datestart.Month)) 1)) }}
+                {{ else }}
+                {{ .Scratch.Set "monthstart" $datestart.Month }}
+                {{ end }}
+                {{ if isset .Params "datefin" }}
+                {{ $dateend := printf .Params.datefin | time }}
+                {{ .Scratch.Set "monthend" "" }}
+                {{ if isset .Site.Params "month_label" }}
+                {{ .Scratch.Set "monthend" (index .Site.Params.month_label (sub (int (printf "%d" $dateend.Month)) 1)) }}
+                {{ else }}
+                {{ .Scratch.Set "monthend" $dateend.Month }}
+                {{ end }}
+                {{ .Title }} a été sponsor de {{ .Scratch.Get "monthstart" }} {{ $datestart.Year }} à {{ .Scratch.Get "monthend" }} {{ $dateend.Year }}.
+                {{ else }}
+                {{ .Title }} est sponsor depuis {{ .Scratch.Get "monthstart" }} {{ $datestart.Year }}.
+                {{ end }}
+                {{ end }}
+            </p>
+            {{ if isset .Params "site" }}
+            <p>
+                site : <a href="{{ printf .Params.site }}">{{ printf .Params.site  }}</a>
+            </p>
+            {{ end }}
+            {{ if isset .Params "twitter" }}
+            <p>
+                Vous pouvez suivre leur actualité via leur <a href="{{ printf .Params.twitter }}">fil twitter</a>.
+            </p>
+            {{ end }}
+        </div>
+        <div class="logo">
+            {{ if isset .Params "image" }}
+            {{ if (hasPrefix .Params.image "/") }}
+            <img src="{{ .Params.image}}">
+            {{ else }}
+            <img src="/sponsor/{{- .Params.image -}}">
+            {{ end }}
+            {{ else }}
+            {{ .Title }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ .Content }}
+{{ end }}

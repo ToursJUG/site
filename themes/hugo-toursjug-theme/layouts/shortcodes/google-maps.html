@@ -1,0 +1,9 @@
+{{ $embedded := .Get "embedded"}}
+<iframe
+	src="https://www.google.com/maps/embed?{{ $embedded }}"
+	width="100%"
+	height="400"
+	frameborder="1"
+	style="border:0;"
+	allowfullscreen="false"
+></iframe>

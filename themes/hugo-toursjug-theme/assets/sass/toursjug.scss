@@ -1,0 +1,667 @@
+/* rouge du bec : #DE2217 rgb(222, 34, 22) */
+/* theme couleur : https://colorhunt.co/palette/33990 */
+/*
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+*/
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"); /* Pour les note et le mot d'excuse pour l'absence de soirée... */
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Baskervville:400,400i&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700&display=swap");
+
+@font-face {
+  font-family: "PixelCode";
+  src: url("../fonts/ONESIZE_.TTF");
+}
+@font-face {
+  font-family: "Pixel";
+  src: url("../fonts/Minecraft-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Pixel";
+  src: url("../fonts/Minecraft-Bold.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Pixel";
+  src: url("../fonts/Minecraft-Italic.otf");
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Pixel";
+  src: url("../fonts/Minecraft-BoldItalic.otf");
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  color: #769fcd;
+  color: #036cad;
+  color: black;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1em 0 0.8em 0;
+  font-weight: bold;
+  color: #036cad;
+}
+h1 {
+  font-size: 2em;
+  letter-spacing: 0.15em;
+  align-self: center;
+}
+h2 {
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  align-self: center;
+}
+h3 {
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+h4 {
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+
+h5 {
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  margin: 0 0 0.5em 0;
+  line-height: 1.3em;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+code {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 95%;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+}
+
+ul {
+  &.document {
+    list-style: none;
+    padding: 0.2em 0 0.4em 1em;
+    li {
+      padding: 0.3em 0 0 0;
+      display: flex;
+      * {
+        align-self: center;
+        margin-right: 0.2em;
+      }
+      img {
+        fill: #036cad;
+      }
+    }
+  }
+}
+
+#container {
+  /*
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Pixel", cursive;
+  font-family: "Ubuntu", sans-serif;
+  */
+
+  font-family: "Indie Flower", cursive; /* Pour les note et le mot d'excuse pour l'absence de soirée... */
+
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f7fbfc;
+  cursor: default;
+}
+
+/* Header & nav bar */
+header {
+  background-color: #769fcd;
+  color: #f7fbfc;
+  height: 80px;
+  a {
+    color: #f7fbfc;
+  }
+  ::selection {
+    background-color: transparent;
+    color: #f7fbfc;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      a {
+        color: #f7fbfc;
+        text-decoration: none;
+        &:hover {
+          color: #f7fbfc;
+        }
+      }
+      &.logo {
+        flex: 1;
+        height: 80px;
+        width: 242px;
+        background: url("/images/juggy_head.png") no-repeat left bottom;
+      }
+      &.toggle {
+        order: 1;
+        font-size: 2em;
+        padding-right: 0.5em;
+      }
+      &.menu-item {
+        width: 100%;
+        text-align: center;
+        padding: 0.3em 0;
+        order: 3;
+        background-color: #769fcd;
+        display: none;
+        font-size: 1.5em;
+        &.active {
+          display: block;
+          z-index: 10;
+          &:nth-child(2) {
+            padding-top: 1.5em;
+          }
+        }
+        a {
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  a {
+    color: #635ab9;
+    text-decoration: none;
+    &:hover {
+      color: #de2217;
+    }
+  }
+  ::selection {
+    background-color: #473ea2;
+    background-color: #ffc368;
+    color: #dbd8f8;
+    color: #036cad;
+  }
+}
+
+aside {
+  display: inline-block;
+  &.left {
+    order: 2;
+    display: none;
+  }
+  &.right {
+    order: 3;
+  }
+}
+
+#content {
+  margin: 1em;
+  flex-grow: 1;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  img {
+    align-self: center;
+  }
+}
+
+.mailint-list-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.event-title {
+  border-bottom: 1px solid;
+  &.year {
+    margin: 0.5em 0 0.2em 0;
+  }
+}
+
+.event {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  padding: 0.3em;
+  border-radius: 0.5em;
+  h2,
+  h3,
+  h4,
+  h5 {
+    align-self: flex-start;
+  }
+  &.list {
+    margin-bottom: 1em;
+  }
+  &.follow {
+    p:nth-last-child(2) {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    &:hover {
+      transition: 0.5s ease-out;
+      background-color: rgba(255, 195, 104, 0.3);
+      cursor: pointer;
+      p {
+        &.advice-link {
+          color: rgba(118, 159, 205, 1);
+        }
+      }
+    }
+  }
+  .title {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2em;
+    &.no-margin {
+      margin-bottom: 0;
+    }
+    &.sublist {
+      font-size: 0.95em;
+    }
+    .event-date {
+      align-self: flex-end;
+    }
+  }
+  .informations {
+    font-size: 0.9em;
+    display: flex;
+    color: rgba(118, 159, 205, 1);
+    color: #036cad;
+    padding: 0 1.5em;
+    justify-content: space-between;
+    margin-bottom: 0.3em;
+  }
+  p {
+    &.advice-link {
+      text-align: right;
+      padding: 0;
+      margin: 0;
+      font-size: 0.8em;
+      color: rgba(118, 159, 205, 0.7);
+    }
+  }
+  .information {
+    padding-left: 3em;
+
+    span:first-child {
+      margin-right: 0.3em;
+      color: rgba(118, 159, 205, 1);
+    }
+  }
+  code {
+    font-family: "Anonymous Pro", monospace;
+    background-color: rgba(224, 224, 235, 0.7);
+  }
+  ul {
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+    li {
+      list-style-type: circle;
+      margin-bottom: 0.3em;
+    }
+  }
+}
+
+.next-event {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-event {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+  h4 {
+    align-self: center;
+    font-family: "Indie Flower", cursive;
+  }
+}
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+  div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.4em;
+    * {
+      margin-right: 0.3em;
+    }
+  }
+  .susbcribe {
+    display: flex;
+    flex-direction: row;
+    &.open {
+      justify-content: center;
+      font-size: 1em;
+      font-weight: bold;
+    }
+  }
+}
+
+@import "button-subscribe";
+
+.event-speakers {
+  font-size: 0.9em;
+  color: #036cad;
+  padding-left: 1.5em;
+  &.next {
+    margin-bottom: 0.5em;
+  }
+}
+
+.event-information {
+  font-weight: bold;
+  &.undefined {
+    color: #ada6d8;
+    font-weight: normal;
+  }
+}
+
+.speaker-title {
+  font-weight: bold;
+}
+.speaker-list {
+  span {
+    ::before {
+      content: "";
+    }
+    &:not(:first-child) {
+      &::before {
+        content: ", ";
+      }
+    }
+  }
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    border-bottom: 1px solid;
+    width: 100%;
+  }
+  .informations {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5em;
+    margin-bottom: 1em;
+    align-items: center;
+    div {
+      img {
+        max-height: 50px;
+      }
+    }
+    .address {
+      display: flex;
+      flex-direction: column;
+      .gmap {
+        margin-top: 0.5em;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+.sponsor {
+  h1 {
+    border-bottom: 1px solid;
+    width: 100%;
+  }
+  #information {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    div {
+      width: 45%;
+    }
+    .logo{
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 80%; 
+        height: auto;
+      }
+    }
+  }
+}
+
+blockquote {
+  padding-left: 1em;
+  color: #877fd3;
+  font-family: "Baskervville", serif;
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+.post-content {
+  ul {
+    list-style: square inside;
+    padding-left: 1em;
+    li {
+      margin: 0.6em 0;
+    }
+  }
+}
+
+.post-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -1em;
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+  span {
+    margin: 0 0.4em;
+  }
+}
+
+footer {
+  font-size: 0.88em;
+  color: #769fcd;
+  padding: 0 1em 0.5em 1em;
+  background: linear-gradient(rgba(247, 251, 252, 0.5), rgba(185, 215, 234, 0.8));
+  a {
+    color: #635ab9;
+    text-decoration: none;
+    &:hover {
+      color: #de2217;
+    }
+  }
+  p {
+    margin: 0.3em 0;
+  }
+  ::selection {
+    background-color: #473ea2;
+    color: #dbd8f8;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  aside {
+    min-width: 220px;
+
+    &.left {
+      order: 1;
+      display: block;
+    }
+  }
+}
+
+@media all and (min-width: 950px) {
+  #container {
+    background: #f7fbfc url("/images/toursJuggy_t08.png") no-repeat bottom 50px right 220px;
+  }
+  main {
+    flex-direction: row;
+  }
+  aside {
+    width: 220px;
+    min-width: 220px;
+    &.right {
+      order: 3;
+    }
+  }
+  header {
+    ul {
+      li {
+        &.menu-item {
+          display: block;
+          width: auto;
+          padding-bottom: 0.8em;
+          align-self: flex-end;
+          font-size: 1.05em;
+          padding: 0 1em 1em 0;
+          white-space: nowrap;
+          background-color: transparent;
+        }
+        &.toggle {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+#content404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  min-height: 100%;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  ul {
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+    li {
+      list-style-type: disc;
+      padding: 0.3em;
+    }
+  }
+}
+
+.speaker-name {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #036cad;
+  justify-content: space-between;
+  margin: 1em 0 0.8em 0;
+  h3 {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1em;
+    a {
+      font-size: 1.25em;
+      // font-size: 1.6em;
+      align-self: flex-end;
+      margin-bottom: 0.1em;
+      padding: 0 0.1em;
+    }
+  }
+}
+
+main {
+  aside {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+#sponsor {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+
+#speaker-desk{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: auto;
+  li {
+    border-radius: 1em;
+    flex-shrink: 0;
+    display: inline-block;
+    flex-grow: 1;
+    padding: 0 1em;
+    min-width: 20em;
+    max-width: 20em;
+    transition: 1.5s ease-out;
+    background-color: inherit;
+    h5 {
+      text-align: center;
+      a{
+      }
+    }
+    p {
+      transition: 0.8s ease-out;
+      color: transparent;
+    }
+    &:hover {
+      transition: 0.5s ease-out;
+      background-color: rgba(255, 195, 104, 0.3);
+      p {
+        transition: 0.8s ease-out;
+        color: inherit;
+      }
+        
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="speaker-name">
+    <h3 class="event-title">{{ .Title }}</h3>
+    <div>
+        {{- if .Params.site -}}
+        <a href="{{ .Params.site }}" target="_blank" title="{{ (print "site de " .Title) }}"><i class="far fa-file-code"></i></a>
+        {{- end -}}
+        {{- if .Params.twitter -}}
+        {{ if (hasPrefix .Params.twitter "http") }}
+        {{ .Scratch.Set "twitter" .Params.twitter }}
+        {{ else }}
+        {{ .Scratch.Set "twitter" (print "https://twitter.com/" .Params.twitter) }}
+        {{ end }}
+        <a href="{{ .Scratch.Get "twitter" }}" target="_blank"><i class="fa fa-twitter"></i></a>
+        {{- end -}}
+        {{- if .Params.github -}}
+        {{ if (hasPrefix .Params.github "http") }}
+        {{ .Scratch.Set "github" .Params.github }}
+        {{ else }}
+        {{ .Scratch.Set "github" (print "https://github.com/" .Params.github) }}
+        {{ end }}
+        <a href="{{ .Scratch.Get "github" }}" target="_blank"><i class="fa fa-github"></i></a>
+        {{- end -}}
+        {{- if .Params.linkedin -}}
+        {{ if (hasPrefix .Params.linkedin "http") }}
+        {{ .Scratch.Set "linkedin" .Params.linkedin }}
+        {{ else }}
+        {{ .Scratch.Set "linkedin" (print "https://www.linkedin.com/in/" .Params.linkedin) }}
+        {{ end }}
+        <a href="{{ .Scratch.Get "linkedin" }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+        {{- end -}}
+    </div>
+</div>
+
+{{ $speakerName := .Title }}
+{{ $speakerlink := .Params.link }}
+{{ .Content }}
+<h5 class="event-title">Présentations</h5>
+<div>
+    {{ range where .Site.Pages "Section" "event" }}
+    {{ range .Pages }}
+    {{ if in .Params.speakers $speakerName }}
+    <div class="event follow" onclick="location = '{{ .RelPermalink }}'">
+        <div class="title no-margin sublist">
+            <span>{{ .Title }}</span>
+            <span class="event-date">
+                {{ partial "datemonthyear.html" . }}
+            </span>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</div>
+{{ end }}

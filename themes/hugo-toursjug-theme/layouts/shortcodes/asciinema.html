@@ -1,0 +1,6 @@
+<script type="text/javascript" src="https://asciinema.org/a/{{ index .Params 0 }}.js" id="asciicast-{{ index .Params 0 }}"  
+  data-autoplay=0 
+  {{ if isset .Params 1 }}
+  data-speed="{{ .Get 1 }}"
+  {{ end }}
+></script>
