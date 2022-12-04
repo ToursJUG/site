@@ -86,10 +86,11 @@
 {{ end }}
 
 {{ if and (ge .Date now) (isset .Params "after") }}
-{{ $afterId := .Params.after }}
-{{ .Scratch.Set "afterId" .Params.after }}
+{{ $after := newScratch }}
+{{ $after.Set "id" .Params.after }}
 {{ range where .Site.Pages "Section" "after" }}
-{{ range first 1 (where .Pages "after-title" "eq" (.Scratch.Get "afterId")) }}
+{{ range .Pages }}
+{{ if eq ($after.Get "id") .Title }}
 <div>
     <h5 class="event-title">
         {{ if isset .Params "aftertitle" }}
@@ -103,7 +104,7 @@
 {{ end }}
 {{ end }}
 {{ end }}
-
+{{ end }}
 
 {{ if .Params.docs }}
 {{ $permalink := .Permalink }}
@@ -122,56 +123,6 @@
     </li>
     {{ end }}
 </ul>
-{{ end }}
-
-{{ if .Params.sponsors }}
-<h5 class="event-title">Nos sponsors</h5>
-Les sponsors qui nous ont aidé à l'organisation de cette soirée.
-<br/>
-
-{{ $sponsor_image := slice "" }}
-{{ $a := slice "" }}
-{{ range where .Site.Pages "Section" "sponsor" }}
-
-{{ range .Pages }}
-{{ .Params.link }} --> {{ .Params.image }} <br/>
-{{ $a = $a | append (.Params.link) }}
-{{ $sponsor_image = $sponsor_image | append (.Params.image) }}
-{{ end }}
-
-{{ end }}
-
-<br/>
---------------
-<br/>
-{{ $a }}
-<br/>
-{{ $a1 := index ($a) 1}}
-a : {{ $a1 }}<br/>
-{{ $image1 := index ($sponsor_image) 1}}
-images: {{ $sponsor_image }}<br/>
-<br/>
-image a : {{ $image1 }}
-<br/>---<br/>
-
-{{ range $elem_index, $elem_val := .Params.sponsors }}
-sponsor: {{ $elem_val }}<br/>
-{{ if in $a $elem_val }}
-found ({{ $elem_index }})
-{{ $sponsorPath := print "sponsor/" (urlize $elem_val) | absURL }}<br/>
-{{ $index_image := add $elem_index  1 }}
-index_image = {{ $index_image }}<br/>
-{{ $image := index ($sponsor_image) $index_image}}
-{{ $sponsorPath }}<br/>
-image : {{ $image }} <br/> A
-{{ else }}
-oups
-{{ end }}
-<br/>
-{{ else }}
-oups
-{{ end }}
-
 {{ end }}
 
 {{ if .Params.youtube }}
