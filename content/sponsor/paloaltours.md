@@ -1,7 +1,7 @@
 ---
 title: "Paloaltours"
 # description: "" # Description courte du sponsor si besoin
-weight: 2
+weight: 4
 date: 2019-12-02T01:26:13+01:00 # date d'ajout du speaker
 link: "paloaltours"
 # date-debut: "" # Date de début su sponsoring

@@ -1,7 +1,7 @@
 ---
 title: "Jetbrains"
 # description: "" # Description courte du sponsor si besoin
-weight: 0
+weight: 2
 date: 2019-12-01T18:04:31+01:00 # date d'ajout du speaker
 link: "jetbrains"
 date-debut: "2017-01-01T00:00:00+01:00" # Date de début su sponsoring
