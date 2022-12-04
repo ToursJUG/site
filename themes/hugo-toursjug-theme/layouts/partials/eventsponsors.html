@@ -1,0 +1,32 @@
+{{ if (isset .Params "sponsors") }}
+{{ $event_sponsors := .Params.sponsors }}
+<div>
+    <h5 class="event-title">Nos sponsors</h5>
+    <p>
+        Sans eux, rien n'est possible...
+    </p>
+    <div class="event-sponsors">
+        {{ range where .Site.Pages "Section" "sponsor" }}
+        {{ if in $event_sponsors .Title }}
+        <div class="sponsor-item">
+            {{ if (isset .Params "site") }}
+            <a href="{{ .Params.site }}">
+                <img src="/sponsor/{{ .Params.image }}"/>
+            </a>
+            {{ else }}
+            <img src="/sponsor/{{ .Params.image }}"/>
+            {{ end }}
+            <!--p>
+            {{ if (isset .Params "site") }}
+            <a href="{{ .Params.site }}">{{ .Title }}</a>
+            {{ else }}
+            {{ .Title }}
+            {{ end }}
+            </p-->
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
