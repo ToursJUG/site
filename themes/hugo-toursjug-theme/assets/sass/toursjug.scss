@@ -470,6 +470,25 @@ aside {
   }
 }
 
+.event-sponsors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  .sponsor-item {
+    padding: 0.75em 1.5em;
+    p {
+      border: #de2217 solid 1px;
+      text-align: center;
+    }
+    img {
+      max-height: 100px;
+    }
+  }
+}
+
 blockquote {
   padding-left: 1em;
   color: #877fd3;
