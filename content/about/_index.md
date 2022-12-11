@@ -32,6 +32,7 @@ Vous pouvez aussi nous suivre sur le fil twitter du JUG : **[@toursjug](https://
 
 * {{< speaker "François Robert" >}} - Jug leader
 * Florian Roulet (*aussi membre du GDG Tours*)
+* Carl Demus
 
 
 ##### Le JUG en chiffres...
