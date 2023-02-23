@@ -26,4 +26,17 @@
 {{ end }}
 
 
+{{ range where .Pages "Section" "partenaire"}}
+<!--{{ len (where .Pages.Reverse "Date" "ge" now) }}-->
+<div class="partenaires">
+    <h4>Partenaires</h4>
+    
+    {{ range (where .Pages.Reverse "Date" "ge" now) }}
+    {{ partial "partenaire_home.html" . }}
+    {{ end }}
+</div>
+
+{{ end }}
+
+
 {{ end }}

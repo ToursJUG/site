@@ -684,3 +684,20 @@ main {
     }
   }
 }
+
+.partenaires {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .partenaire {
+    padding: 1em 2em 0 2em;
+    img {
+      max-width: 100%;
+      height: auto;
+      width: auto\9; /* ie8 */
+    }
+  }
+  border-top: solid 1px #036cad;
+  margin-top: 1em;;
+}
