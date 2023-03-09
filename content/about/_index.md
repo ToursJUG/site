@@ -23,8 +23,8 @@ Le ToursJUG est co organisateur de [Touraine Tech](https://touraine.tech/) avec 
 
 ##### Pour se tenir informer des prochains événements ?.
 
-* **S'Inscrire** à la [liste de diffusion des soirées du ToursJUG](https://my.sendinblue.com/users/subscribe/js_id/32zm5/id/4).
-* **Se desinscrire** de la [liste de diffusion des soirées du ToursJUG](https://my.sendinblue.com/users/unsubscribe/js_id/32zm5/id/5).
+* **S'Inscrire** à la [liste de diffusion des soirées du ToursJUG](https://98434987.sibforms.com/serve/MUIEAFz4jYNgq2PTQgIral9SVODEI4IqkPWShr_MM-4dkA-dbdpg5IoBTcspy1JiO83vXpAA9l2sN6vTlCAD_ca9Jq2b2Avez0ksC29svfFropwulIJOLkGqvn_kgq9tVIsxI_Lko-be_T_crXgXx5ri-6HYWTaDs9PdkCjjDqkhFvJWSpCixL2sQt1RCHm9hYO02HHxs_2vONMn).
+
 
 Vous pouvez aussi nous suivre sur le fil twitter du JUG : **[@toursjug](https://twitter.com/toursjug)**.
 
